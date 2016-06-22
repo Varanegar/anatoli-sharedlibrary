@@ -125,6 +125,7 @@
     <Compile Include="RequestModel\PersonelTrackingRequestModel.cs" />
     <Compile Include="RequestModel\PersonelRequestModel.cs" />
     <Compile Include="RequestModel\ProductReportRequestModel.cs" />
+    <Compile Include="RequestModel\FinanceReportRequestModel.cs" />
     <Compile Include="RequestModel\ReportDataRequestModel.cs" />
     <Compile Include="RequestModel\UserRequestModel.cs" />
     <Compile Include="RequestModel\RegionAreaRequestModel.cs" />
