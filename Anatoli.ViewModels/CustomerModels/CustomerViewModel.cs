@@ -9,7 +9,7 @@ namespace Anatoli.ViewModels.CustomerModels
 {
     public class CustomerViewModel : BaseViewModel
     {
-        public long? CustomerCode { get; set; }
+        public string CustomerCode { get; set; }
         public string CustomerName
         {
             get
@@ -37,7 +37,7 @@ namespace Anatoli.ViewModels.CustomerModels
         public Nullable<Guid> RegionLevel4Id { get; set; }
         public Nullable<Guid> DefauleStoreId { get; set; }
         public Guid CompanyId { get; set; }
-        public int CustomerType { get; set; }
+        public Nullable<Guid> CustomerTypeId { get; set; }
         public string PBirthDay { get; set; }
         public Nullable<DateTime> MarriageDate { get; set; }
         public string PMarriageDate { get; set; }
@@ -46,10 +46,20 @@ namespace Anatoli.ViewModels.CustomerModels
         public string PGraduateDate { get; set; }
 
         public Nullable<Guid> ReagentId { get; set; }
+        public Nullable<Guid> CurrentTierId { get; set; }
+        public string CurrentTierName { get; set; }
+        public Nullable<Guid> CurrentCardId { get; set; }
+        public string CurrentCardSerialNo { get; set; }
+        public Nullable<Guid> CurrentCardSetId { get; set; }
+        public string CurrentCardSet { get; set; }
+        public Nullable<Guid> CustomerGroupId { get; set; }
+        public string CurrentGroupName { get; set; }
+        public string CurrentCardNo { get; set; }
 
         public bool GetNews { get; set; }
         public bool GetMessage { get; set; }
 
-        public List<CustomerShipAddressViewModel> CustomerShipAddress { get; set; }
+        //public List<CustomerTagViewModel> CustomerTags { get; set; }
+        //public List<CustomerShipAddressViewModel> CustomerShipAddress { get; set; }
     }
 }
