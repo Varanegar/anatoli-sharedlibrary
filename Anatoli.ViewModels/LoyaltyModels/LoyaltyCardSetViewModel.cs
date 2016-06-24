@@ -13,7 +13,7 @@ namespace Anatoli.ViewModels.LoyaltyModels
         public int Seed { get; set; }
         public long CurrentNo { get; set; }
         public string Initialtext { get; set; }
-        public Guid GenerateNoType { get; set; }
+        public Guid LoyaltyCardSetGenerateTypeId { get; set; }
 
         //public List<LoyaltyCardBatchViewModel> LoyaltyCardBatchs { get; set; }
         //public List<LoyaltyCardViewModel> LoyaltyCards { get; set; }
