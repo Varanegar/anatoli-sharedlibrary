@@ -7,7 +7,7 @@ using Anatoli.ViewModels.CustomerModels;
 
 namespace Anatoli.ViewModels.LoyaltyModels
 {
-    public class LoyaltyTier : BaseViewModel
+    public class LoyaltyTierViewModel : BaseViewModel
     {
         public string TierName { get; set; }
 

@@ -79,6 +79,7 @@
     <Compile Include="CommonModels\SelectListItemViewModel.cs" />
     <Compile Include="CustomerModels\CustomerGroupViewModel.cs" />
     <Compile Include="CustomerModels\CustomerShipAddressViewModel.cs" />
+    <Compile Include="CustomerModels\CustomerTagViewModel.cs" />
     <Compile Include="CustomerModels\CustomerViewModel.cs" />
     <Compile Include="Enumeration.cs" />
     <Compile Include="LoyaltyModels\LoyaltyActionTypeViewModel.cs" />

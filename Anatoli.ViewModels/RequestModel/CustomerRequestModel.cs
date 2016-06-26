@@ -14,6 +14,7 @@ namespace Anatoli.ViewModels
         public Guid customerId { get; set; }
         public Guid basketId { get; set; }
         public CustomerShipAddressViewModel customerShipAddressData { get; set; }
+        public List<CustomerTagViewModel> customerTagData { get; set; }
         public List<CustomerGroupViewModel> customerGroupData { get; set; }
 
         public CustomerViewModel customerData { get; set; }
