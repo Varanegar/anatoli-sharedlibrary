@@ -25,6 +25,10 @@ namespace Anatoli.ViewModels.RequestModel
         public string GoodGroup { set; get; }
         public string DynamicGroup { set; get; }
         public string Good { set; get; }
+
+        public string UnSoldGoodGroup { set; get; }
+        public string UnSoldGood { set; get; }
+
         public string CommercialName { set; get; }
         public int? DayCount { set; get; }
         public bool RequestCount { set; get; }

@@ -13,5 +13,7 @@ namespace Anatoli.ViewModels.RequestModel
         public string textName { set; get; }
         public string searchTrem { get; set; }
 
+        public string reportName { get; set; }
+
     }
 }

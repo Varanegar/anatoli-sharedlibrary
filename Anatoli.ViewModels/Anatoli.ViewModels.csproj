@@ -143,6 +143,8 @@
     <Compile Include="VnGisModels\CustomerPointViewModel.cs" />
     <Compile Include="VnGisModels\PointViewModel.cs" />
     <Compile Include="VnGisModels\PolyViewModel.cs" />
+    <Compile Include="VnGisModels\ProductReportForPrintViewModel.cs" />
+    <Compile Include="VnGisModels\ProductValueReportForPrintViewModel.cs" />
     <Compile Include="VnGisModels\RegionAreaCustomerLocCountViewModel.cs" />
     <Compile Include="VnGisModels\RegionAreaViewModel.cs" />
     <Compile Include="VnGisModels\RegionAreaPointViewModel.cs" />
@@ -171,6 +173,7 @@
     <Compile Include="User\ChangePasswordBindingModel.cs" />
     <Compile Include="User\UserReturnModel.cs" />
     <Compile Include="User\CreateUserBindingModel.cs" />
+    <Compile Include="VnGisModels\ReportListViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CompanyModels\" />
