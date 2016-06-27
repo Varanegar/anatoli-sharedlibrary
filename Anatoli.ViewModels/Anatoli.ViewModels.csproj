@@ -83,6 +83,7 @@
     <Compile Include="CustomerModels\CustomerShipAddressViewModel.cs" />
     <Compile Include="CustomerModels\CustomerTagViewModel.cs" />
     <Compile Include="CustomerModels\CustomerViewModel.cs" />
+    <Compile Include="CustomerModels\CustomerTransactionHistoryViewModel.cs" />
     <Compile Include="Enumeration.cs" />
     <Compile Include="LoyaltyModels\LoyaltyActionTypeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyCardViewModel.cs" />

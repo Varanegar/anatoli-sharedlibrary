@@ -9,7 +9,7 @@ namespace Anatoli.ViewModels.CustomerModels
 {
     public class CustomerViewModel : BaseViewModel
     {
-        public long? CustomerCode { get; set; }
+        public string CustomerCode { get; set; }
         public string CustomerName
         {
             get
@@ -37,7 +37,7 @@ namespace Anatoli.ViewModels.CustomerModels
         public Nullable<Guid> RegionLevel4Id { get; set; }
         public Nullable<Guid> DefauleStoreId { get; set; }
         public Guid CompanyId { get; set; }
-        public int CustomerType { get; set; }
+        public Guid? CustomerTypeId { get; set; }
         public string PBirthDay { get; set; }
         public Nullable<DateTime> MarriageDate { get; set; }
         public string PMarriageDate { get; set; }

@@ -11,5 +11,7 @@ namespace Anatoli.ViewModels.RequestModel
     {
         public CustomerNonMonetaryHistoryViewModel customerNonMonetaryHistoryData { get; set; }
         public CustomerMonetaryHistoryViewModel customerMonetaryHistoryData { get; set; }
+
+        public CustomerTransactionHistoryViewModel customerTransactionHistoryData { get; set; }
     }
 }
