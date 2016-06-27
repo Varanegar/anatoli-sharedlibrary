@@ -9,6 +9,7 @@ namespace Anatoli.ViewModels.LoyaltyModels
 {
     public class LoyaltyTierViewModel : BaseViewModel
     {
+        public string TierCode { get; set; }
         public string TierName { get; set; }
 
         //public List<CustomerLoyaltyTierHistory> CustomerLoyaltyTierHistories { get; set; }

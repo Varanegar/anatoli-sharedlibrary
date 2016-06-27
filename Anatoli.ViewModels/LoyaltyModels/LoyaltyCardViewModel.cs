@@ -6,10 +6,10 @@ namespace Anatoli.ViewModels.LoyaltyModels
     public class LoyaltyCardViewModel : BaseViewModel
     {
         public string CardNo { get; set; }
-        public DateTime ExpireDate { get; set; }
+        public DateTime? ExpireDate { get; set; }
         public DateTime GenerateDate { get; set; }
         public bool IsActive { get; set; }
-        public bool AssignDate { get; set; }
+        public DateTime? AssignDate { get; set; }
         public Nullable<Guid> CancelReason { get; set; }
         
         public Guid LoyaltyCardSetId { get; set; }
@@ -17,7 +17,8 @@ namespace Anatoli.ViewModels.LoyaltyModels
 
         public Nullable<Guid> LoyaltyCardBatchId { get; set; }
         //public string BatchGeneratePDate { get; set; }
-        
+        public Nullable<Guid> LoyaltyCardStatusId { get; set; }
+
         public Nullable<Guid> CustomerId { get; set; }
         public string CustomerName { get; set; }
 
