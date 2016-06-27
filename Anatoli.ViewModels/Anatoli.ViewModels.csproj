@@ -94,6 +94,7 @@
     <Compile Include="LoyaltyModels\LoyaltyRuleConditionTypeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleTypeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyTierViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyTriggerViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyTriggerTypeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyUserGroupViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyValueTypeViewModel.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="ProductModels\ProductViewModel.cs" />
     <Compile Include="BaseModels\CityRegionViewModel.cs" />
     <Compile Include="RequestModel\LoyaltyRequestModel.cs" />
+    <Compile Include="RequestModel\LoyaltyTriggerRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyUserGroupRequestModel.cs" />
     <Compile Include="RequestModel\PersonelTrackingRequestModel.cs" />
     <Compile Include="RequestModel\PersonelRequestModel.cs" />
