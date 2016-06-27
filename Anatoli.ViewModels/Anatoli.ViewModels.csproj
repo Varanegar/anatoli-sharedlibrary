@@ -78,6 +78,8 @@
     <Compile Include="BaseModels\BasketViewModel.cs" />
     <Compile Include="CommonModels\SelectListItemViewModel.cs" />
     <Compile Include="CustomerModels\CustomerGroupViewModel.cs" />
+    <Compile Include="CustomerModels\CustomerMonetaryHistoryViewModel.cs" />
+    <Compile Include="CustomerModels\CustomerNonMonetaryHistoryViewModel.cs" />
     <Compile Include="CustomerModels\CustomerShipAddressViewModel.cs" />
     <Compile Include="CustomerModels\CustomerTagViewModel.cs" />
     <Compile Include="CustomerModels\CustomerViewModel.cs" />
@@ -124,6 +126,7 @@
     <Compile Include="ProductModels\ProductTypeViewModel.cs" />
     <Compile Include="ProductModels\ProductViewModel.cs" />
     <Compile Include="BaseModels\CityRegionViewModel.cs" />
+    <Compile Include="RequestModel\CustomerHistoryRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyTriggerRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyUserGroupRequestModel.cs" />
