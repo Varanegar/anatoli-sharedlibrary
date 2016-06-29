@@ -35,7 +35,7 @@ namespace Anatoli.ViewModels.RequestModel
         public bool OpenFactorDay { set; get; }
         public bool RejectChequeCount { set; get; }
         public bool RejectChequeAmount { set; get; }
-        public bool InprocessChequeCoun { set; get; }
+        public bool InprocessChequeCount { set; get; }
         public bool InprocessChequeAmount { set; get; }
         public bool FirstCredit { set; get; }
         public bool RemainedCredit { set; get; }
@@ -55,10 +55,10 @@ namespace Anatoli.ViewModels.RequestModel
         public int? ToRejectChequeCount { set; get; }
         public decimal? FromRejectChequeAmount { set; get; }
         public decimal? ToRejectChequeAmount { set; get; }
-        public int? FromInprocessChequeCount { set; get; }
-        public int? ToInprocessChequeCount { set; get; }
-        public decimal? FromInprocessChequeAmount { set; get; }
-        public decimal? ToInprocessChequeAmount { set; get; }
+        public int? FromImprocessChequeCount { set; get; }
+        public int? ToImprocessChequeCount { set; get; }
+        public decimal? FromImprocessChequeAmount { set; get; }
+        public decimal? ToImprocessChequeAmount { set; get; }
         public decimal? FromFirstCredit { set; get; }
         public decimal? ToFirstCredit { set; get; }
         public decimal? FromRemainedCredit { set; get; }
