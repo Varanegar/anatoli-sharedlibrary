@@ -8,7 +8,7 @@ namespace Anatoli.ViewModels.LoyaltyModels
 {
     public class LoyaltyUserGroupViewModel : BaseViewModel
     {
-        public int UserGroupCode { get; set; }
+        public string UserGroupCode { get; set; }
 
         public string UserGroupName { get; set; }
     }

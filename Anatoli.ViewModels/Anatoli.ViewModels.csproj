@@ -148,6 +148,7 @@
     <Compile Include="RequestModel\StockProductRequestRequestModel.cs" />
     <Compile Include="RequestModel\ProductRequestModel.cs" />
     <Compile Include="RequestModel\BaseRequestModel.cs" />
+    <Compile Include="User\UserViewModel.cs" />
     <Compile Include="User\UserProfileModel.cs" />
     <Compile Include="VnGisModels\CustomerComboViewModel.cs" />
     <Compile Include="VnGisModels\CustomerPointViewModel.cs" />

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Anatoli.ViewModels.User;
 
 namespace Anatoli.ViewModels.RequestModel
 {
@@ -11,8 +12,9 @@ namespace Anatoli.ViewModels.RequestModel
     {
 
         public LoyaltyUserGroupViewModel  userGroupData { get; set; }
+        public List<UserViewModel> users { get; set; }
 
-        public Guid userId { get; set; }
+        //public Guid userId { get; set; }
 
     }
 }
