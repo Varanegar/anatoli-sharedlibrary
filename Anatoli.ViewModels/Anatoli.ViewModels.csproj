@@ -89,6 +89,7 @@
     <Compile Include="LoyaltyModels\LoyaltyCardViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyCardBatchViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyCardSetViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyProgramGroupViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyProgramViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyProgramRuleViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleViewModel.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="LoyaltyModels\LoyaltyTriggerViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyTriggerTypeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyUserGroupViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyValueTypeAttributeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyValueTypeViewModel.cs" />
     <Compile Include="OrderModels\IncompletePurchaseOrderLineItemViewModel.cs" />
     <Compile Include="OrderModels\PurchaseOrderLineItemViewModel.cs" />
@@ -128,6 +130,8 @@
     <Compile Include="ProductModels\ProductViewModel.cs" />
     <Compile Include="BaseModels\CityRegionViewModel.cs" />
     <Compile Include="RequestModel\CustomerHistoryRequestModel.cs" />
+    <Compile Include="RequestModel\LoyaltyValueTypeAttributeRequestModel.cs" />
+    <Compile Include="RequestModel\LoyaltyProgramGroupRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyTriggerRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyUserGroupRequestModel.cs" />
