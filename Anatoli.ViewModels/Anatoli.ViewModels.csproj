@@ -92,6 +92,9 @@
     <Compile Include="LoyaltyModels\LoyaltyProgramGroupViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyProgramViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyProgramRuleViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyRuleConditionProductViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyRuleConditionProductGroupViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyRuleConditionValueViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleGroupViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleRequestModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleTriggerViewModel.cs" />

@@ -9,9 +9,13 @@ namespace Anatoli.ViewModels.LoyaltyModels
     public class LoyaltyRuleConditionViewModel : BaseViewModel
     {
         public Guid LoyaltyRuleId { get; set; }
-        public decimal MinValue { get; set; }
-        public decimal MaxValue { get; set; }
-        public Guid LoyaltyRuleConditionTypeId { get; set; }
+        public Guid LoyaltyValueTypeAttributeId { get; set; }
+
+        public virtual ICollection<LoyaltyRuleConditionProductGroupViewModel> LoyaltyRuleConditionProductGroups { get; set; }
+        public virtual ICollection<LoyaltyRuleConditionProductViewModel> LoyaltyRuleConditionProducts { get; set; }
+        public virtual ICollection<LoyaltyRuleConditionValueViewModel> LoyaltyRuleConditionValues { get; set; }
+
+
 
     }
 }

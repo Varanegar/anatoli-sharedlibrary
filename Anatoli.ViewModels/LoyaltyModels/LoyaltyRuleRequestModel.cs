@@ -11,5 +11,6 @@ namespace Anatoli.ViewModels.LoyaltyModels
         public Guid? uniqueId { get; set; }
         public LoyaltyRuleViewModel ruleData { get; set; }
         public LoyaltyRuleActionViewModel ruleActionData { get; set; }
+        public LoyaltyRuleConditionViewModel ruleConditionData { get; set; }
     }
 }
