@@ -92,6 +92,7 @@
     <Compile Include="LoyaltyModels\LoyaltyProgramGroupViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyProgramViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyProgramRuleViewModel.cs" />
+    <Compile Include="LoyaltyModels\LoyaltyRuleGroupViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleActionViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyRuleConditionViewModel.cs" />
@@ -130,6 +131,8 @@
     <Compile Include="ProductModels\ProductViewModel.cs" />
     <Compile Include="BaseModels\CityRegionViewModel.cs" />
     <Compile Include="RequestModel\CustomerHistoryRequestModel.cs" />
+    <Compile Include="RequestModel\LoyaltyActionTypeRequestModel.cs" />
+    <Compile Include="RequestModel\LoyaltyRuleGroupRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyValueTypeAttributeRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyProgramGroupRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyRequestModel.cs" />
