@@ -38,6 +38,7 @@ namespace Anatoli.ViewModels.CustomerModels
         public Nullable<Guid> DefauleStoreId { get; set; }
         public Guid CompanyId { get; set; }
         public Guid? CustomerTypeId { get; set; }
+        public string CustomerTypeName { get; set; }
         public string PBirthDay { get; set; }
         public Nullable<DateTime> MarriageDate { get; set; }
         public string PMarriageDate { get; set; }
@@ -51,5 +52,6 @@ namespace Anatoli.ViewModels.CustomerModels
         public bool GetMessage { get; set; }
 
         public List<CustomerShipAddressViewModel> CustomerShipAddress { get; set; }
+        public int Status { get; set; }
     }
 }
