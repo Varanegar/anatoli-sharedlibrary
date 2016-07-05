@@ -37,6 +37,7 @@ namespace Anatoli.ViewModels.CustomerModels
         public Nullable<Guid> RegionLevel4Id { get; set; }
         public Nullable<Guid> DefauleStoreId { get; set; }
         public Guid CompanyId { get; set; }
+        public string CompanyName { get; set; }
         public Guid? CustomerTypeId { get; set; }
         public string CustomerTypeName { get; set; }
         public string PBirthDay { get; set; }
