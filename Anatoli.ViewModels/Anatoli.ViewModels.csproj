@@ -85,6 +85,8 @@
     <Compile Include="CustomerModels\CustomerViewModel.cs" />
     <Compile Include="CustomerModels\CustomerTransactionHistoryViewModel.cs" />
     <Compile Include="DeviceBaseSystem\BrandViewModel.cs" />
+    <Compile Include="DeviceBaseSystem\CompanyViewModel.cs" />
+    <Compile Include="DeviceBaseSystem\DeviceModelViewModel.cs" />
     <Compile Include="Enumeration.cs" />
     <Compile Include="LoyaltyModels\LoyaltyActionTypeViewModel.cs" />
     <Compile Include="LoyaltyModels\LoyaltyCardViewModel.cs" />
@@ -137,6 +139,8 @@
     <Compile Include="ProductModels\ProductViewModel.cs" />
     <Compile Include="BaseModels\CityRegionViewModel.cs" />
     <Compile Include="RequestModel\CustomerHistoryRequestModel.cs" />
+    <Compile Include="RequestModel\DeviceBaseSystem\CompanyRequestModel.cs" />
+    <Compile Include="RequestModel\DeviceBaseSystem\DeviceModelRequestModel.cs" />
     <Compile Include="RequestModel\DeviceBaseSystem\BrandRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyActionTypeRequestModel.cs" />
     <Compile Include="RequestModel\LoyaltyRuleGroupRequestModel.cs" />

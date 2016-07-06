@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace Anatoli.ViewModels.DeviceBaseSystem
 {
-    public class BrandViewModel : BaseViewModel
+    public class DeviceModelViewModel : BaseViewModel
     {
-        public string brandCode { get; set; }
+        public string deviceCode { get; set; }
+        public string deviceName { get; set; }
+
+        public Guid brandId { get; set; }
         public string brandName { get; set; }
     }
 }
